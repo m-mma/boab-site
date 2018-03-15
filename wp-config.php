@@ -26,10 +26,10 @@ define('DB_NAME', 'brideson_2018-local-DB');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost:8889');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'Y9bY[DI`M=p#:0!<yS;qpqltftVN@-8O~tIxulfwxx|:})42|D+Hh&sJTZ> shf`');
-define('SECURE_AUTH_KEY',  ',dOAu&R|nMw;#qMd~D`xGnMl0Uo88C&)R[j[C#Xbugn%U?1|8.6QI&mK)8I<dR<<');
-define('LOGGED_IN_KEY',    ']T #4_FX`_[y}tzO;@:1w|`6FIRL5X 6r7ZC(~VLI[wM[7h7+F4[xmYd]#Dk{c~s');
-define('NONCE_KEY',        'XqKdj2wkT]%6r78!lA4m:SE@5iY~PO:9*{U{0u*tAg],*H5aq:@Fq+*g44|pPUZ(');
-define('AUTH_SALT',        '}yZ,m0|Z;j+oGnY? gUxe{PoV;7ODjJ:(wl;-wGZ^+,[]*KyH[ZU=m_^AGOKnKT8');
-define('SECURE_AUTH_SALT', 'bFBfm)52}Sg:rCmN*aEcA!8A.R76#-4mLK[GEhC.^Y,QG~/$i1;&eR1J8OJX<QtX');
-define('LOGGED_IN_SALT',   ' pkRKW&}Y?vj}lV&P^NoR4[s<Tdn-Zrf3pRvK:rlgb>zKRpXi#i[ st/ nj~F3_j');
-define('NONCE_SALT',       'oD0sY]z*8+z95TRTx_>~x%nen`cuWQ*sF31#ui[TbUlY&v~]4b-__~LxOk_W3a@d');
+define('AUTH_KEY',         'H~rMey_`FE,9Qgfg<`0*/` ^*,Cppm%+6YnCmz$c;iMC<U%a5ObZm4up{}L{36-b');
+define('SECURE_AUTH_KEY',  'x=}rN6%J1akvunZRbQfu4yj3{e]b@2zu~1JQBeRV12Cq:]As|<nLrthLTp(}-O#^');
+define('LOGGED_IN_KEY',    '#@n7:+]ub3ZgawYbk`r*+kdJLs@@0IS?]F,(UgQs[e+K)z(>tof-I;t$`m&8~k}#');
+define('NONCE_KEY',        '.rzgz!lYggb=z/_oqw(FepqCva#Y6cs3q{D:[1X6tHpvjaEysn8{kFI9W:p=D[^w');
+define('AUTH_SALT',        ':bd%7@)Bcam,(7dgz7U;M.Mnh8.D3|>ixUZOCK>[k51S5JeU{~G9 &1Z:z$?EjlR');
+define('SECURE_AUTH_SALT', ']jS[-Iz{4z=SMbc0$!EiS5d/supeOTrLrO-4E;7vMfEjp<z30Kj.~ob~+>:MB,j/');
+define('LOGGED_IN_SALT',   'p|skqr_ZGTO*R<*z(Y$gG},xb1)1OvG}h3?9><]G&w6FG+>DG1:AQwf~=eQ?FrG?');
+define('NONCE_SALT',       'j2|6?^cn73[l@q^<jA|M6pdRg0hNF[V9%#Lo{ Sc zP]t[RN7lE^9nlmu|F)0Zr*');
 
 /**#@-*/
 
@@ -88,5 +88,20 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-/** BoaB custom memory limit */
-define('WP_MEMORY_LIMIT', '256M');
+// define( 'WP_HOME', 'localhost:8888/boab-site' );
+// define( 'WP_SITEURL', 'localhost:8888/boab-site' );
+
+
+/** Absolute path to the WordPress directory. */
+if ( !defined('ABSPATH') )
+define('ABSPATH', dirname(__FILE__) . '/');
+/* THIS IS CUSTOM CODE CREATED AT ZEROFRACTAL TO MAKE SITE ACCESS DYNAMIC */
+$currenthost = "http://".$_SERVER['HTTP_HOST'];
+$currentpath = preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME']));
+$currentpath = preg_replace('/\/wp.+/','',$currentpath);
+define('WP_HOME',$currenthost.$currentpath);
+define('WP_SITEURL',$currenthost.$currentpath);
+define('WP_CONTENT_URL', $currenthost.$currentpath.'/wp-content');
+define('WP_PLUGIN_URL', $currenthost.$currentpath.'/wp-content/plugins');
+define('DOMAIN_CURRENT_SITE', $currenthost.$currentpath );
+@define('ADMIN_COOKIE_PATH', './');
