@@ -70,8 +70,8 @@ Thumbs.db
 # "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+#wp-content/plugins/
+!wp-content/themes/weddingvendor-child
 
 # ignore these plugins from the core
 wp-content/plugins/hello.php
