@@ -1,0 +1,35 @@
+.divi-solid{
+	border-bottom: 1px solid #eee;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.divi-dashed{
+	border-bottom: 1px dashed #555;
+	padding-top: 20px;
+	margin-bottom: 20px;	
+}
+.divi-dotted{
+	border-bottom: 1px dotted #555;
+	padding-top: 20px;
+	margin-bottom: 20px;	
+}
+.divi-grove{
+	border-bottom: 1px groove #555;
+	padding-top: 20px;
+	margin-bottom: 20px;	
+}
+
+
+/**  Accordion INPUT  **/
+.panel_input { width:80%; }
+.panel_textarea { width:400px; }
+	
+.icon_left{
+  text-align: left;
+}
+.icon_center{
+  text-align: center;
+}
+.icon_right{
+  text-align: right;
+}	

@@ -1,0 +1,378 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-02-14 21:43:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: code/ajax-function-call.php:27
+#: code/ajax-function-call.php:33
+#@ _s
+msgid "Sending user info, please wait."
+msgstr ""
+
+#: code/ajax-function-call.php:111
+#: code/ajax-function-call.php:150
+#@ _s
+msgid "This username is already registered."
+msgstr ""
+
+#: code/ajax-function-call.php:113
+#: code/ajax-function-call.php:152
+#@ _s
+msgid "This email address is already registered."
+msgstr ""
+
+#: code/ajax-function-call.php:116
+#: code/ajax-function-call.php:157
+#@ _s
+msgid "Please check your registerd email for password."
+msgstr ""
+
+#: code/ajax-function-call.php:194
+#, php-format
+#@ _s
+msgid "New user registration on %s"
+msgstr ""
+
+#: code/ajax-function-call.php:195
+#: code/ajax-function-call.php:213
+#: code/ajax-function-call.php:289
+#, php-format
+#@ _s
+msgid "Username: %s"
+msgstr ""
+
+#: code/ajax-function-call.php:196
+#, php-format
+#@ _s
+msgid "E-mail: %s"
+msgstr ""
+
+#: code/ajax-function-call.php:203
+#, php-format
+#@ _s
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: code/ajax-function-call.php:211
+#@ _s
+msgid "Hi there,"
+msgstr ""
+
+#: code/ajax-function-call.php:212
+#, php-format
+#@ _s
+msgid "Welcome to %s You can login now using the below credentials:"
+msgstr ""
+
+#: code/ajax-function-call.php:214
+#, php-format
+#@ _s
+msgid "Password: %s"
+msgstr ""
+
+#: code/ajax-function-call.php:215
+#, php-format
+#@ _s
+msgid "If you have any problems, please contact me at %s."
+msgstr ""
+
+#: code/ajax-function-call.php:216
+#@ _s
+msgid "Thank you."
+msgstr ""
+
+#: code/ajax-function-call.php:222
+#, php-format
+#@ _s
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: code/ajax-function-call.php:254
+#@ _s
+msgid "Email field is empty."
+msgstr ""
+
+#: code/ajax-function-call.php:264
+#@ _s
+msgid "Invalid E-mail address."
+msgstr ""
+
+#: code/ajax-function-call.php:271
+#@ _s
+msgid "Invalid Username."
+msgstr ""
+
+#: code/ajax-function-call.php:287
+#@ _s
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: code/ajax-function-call.php:290
+#@ _s
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: code/ajax-function-call.php:291
+#@ _s
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: code/ajax-function-call.php:291
+#@ _s
+msgid "Password Reset Request"
+msgstr ""
+
+#: code/ajax-function-call.php:294
+#@ _s
+msgid "Email failed to send for some unknown reason."
+msgstr ""
+
+#: code/ajax-function-call.php:298
+#@ _s
+msgid "We have just sent you an email with Password reset instructions."
+msgstr ""
+
+#: code/ajax-function-call.php:342
+#@ _s
+msgid "Wrong username or password."
+msgstr ""
+
+#: code/ajax-function-call.php:342
+#@ _s
+msgid "Successful, redirecting..."
+msgstr ""
+
+#: code/ajax-function-call.php:404
+#@ _s
+msgid "Profile Updated Successfully."
+msgstr ""
+
+#: code/ajax-function-call.php:491
+#@ _s
+msgid "The new password is blank"
+msgstr ""
+
+#: code/ajax-function-call.php:498
+#@ _s
+msgid "New Password and confirm password do not match"
+msgstr ""
+
+#: code/ajax-function-call.php:508
+#@ _s
+msgid "Password Updated.Please login again."
+msgstr ""
+
+#: code/ajax-function-call.php:512
+#@ _s
+msgid "Old Password is not correct"
+msgstr ""
+
+#: code/ajax-function-call.php:770
+#@ _s
+msgid "Item Updated."
+msgstr ""
+
+#: code/ajax-function-call.php:799
+#@ _s
+msgid "Deleted."
+msgstr ""
+
+#: code/ajax-function-call.php:834
+#@ _s
+msgid "Inquiry for"
+msgstr ""
+
+#: code/ajax-function-call.php:834
+#@ _s
+msgid "Items"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#@ _s
+msgid "Client Name"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#: code/shortcode-function.php:1010
+#: code/shortcode-function.php:1062
+#: code/shortcode-function.php:1138
+#: code/shortcode-function.php:1139
+#: code/shortcode-function.php:1194
+#: code/shortcode-function.php:1195
+#@ _s
+msgid "Email"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#@ _s
+msgid "Phone"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#@ _s
+msgid "How to Contact"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#@ _s
+msgid "Selected Title"
+msgstr ""
+
+#: code/ajax-function-call.php:836
+#@ _s
+msgid "Guest"
+msgstr ""
+
+#: code/ajax-function-call.php:838
+#@ _s
+msgid "Message sent from"
+msgstr ""
+
+#: code/ajax-function-call.php:847
+#@ _s
+msgid "Your request has been sent to the vendor."
+msgstr ""
+
+#: code/ajax-function-call.php:852
+#@ _s
+msgid "Fail, Please try again."
+msgstr ""
+
+#: code/ajax-function-call.php:938
+#@ _s
+msgid "Total"
+msgstr ""
+
+#: code/ajax-function-call.php:938
+#@ _s
+msgid "items in your search"
+msgstr ""
+
+#: code/ajax-function-call.php:1510
+#@ _s
+msgid "Successfully Payment"
+msgstr ""
+
+#: code/ajax-function-call.php:1534
+#@ _s
+msgid "Your payment has been received successfully."
+msgstr ""
+
+#: code/ajax-function-call.php:1534
+#@ _s
+msgid "Note your transaction ID for future reference"
+msgstr ""
+
+#: code/shortcodes.php:39
+#: code/shortcodes.php:67
+#@ _s
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: code/shortcodes.php:49
+#: code/shortcodes.php:77
+#@ _s
+msgid "Allowed Files"
+msgstr ""
+
+#: code/shortcode-function.php:733
+#@ _s
+msgid "post author"
+msgstr ""
+
+#: code/shortcode-function.php:738
+#@ _s
+msgid " Comment"
+msgstr ""
+
+#: code/shortcode-function.php:738
+#@ _s
+msgid " Comments"
+msgstr ""
+
+#: code/shortcode-function.php:748
+#@ _s
+msgid "Read More"
+msgstr ""
+
+#: code/shortcode-function.php:991
+#: code/shortcode-function.php:992
+#@ _s
+msgid "Read Username"
+msgstr ""
+
+#: code/shortcode-function.php:997
+#: code/shortcode-function.php:998
+#: code/shortcode-function.php:1069
+#@ _s
+msgid "Password"
+msgstr ""
+
+#: code/shortcode-function.php:1003
+#: code/shortcode-function.php:1075
+#@ _s
+msgid "Login"
+msgstr ""
+
+#: code/shortcode-function.php:1004
+#: code/shortcode-function.php:1076
+#@ _s
+msgid "Forgot Password"
+msgstr ""
+
+#: code/shortcode-function.php:1016
+#: code/shortcode-function.php:1088
+#@ _s
+msgid "Reset Password"
+msgstr ""
+
+#: code/shortcode-function.php:1017
+#: code/shortcode-function.php:1089
+#@ _s
+msgid "Return to Login"
+msgstr ""
+
+#: code/shortcode-function.php:1023
+#: code/shortcode-function.php:1095
+#: code/shortcode-function.php:1151
+#: code/shortcode-function.php:1213
+#@ _s
+msgid "You have already login"
+msgstr ""
+
+#: code/shortcode-function.php:1024
+#: code/shortcode-function.php:1152
+#: code/shortcode-function.php:1214
+#@ _s
+msgid "Go to Home"
+msgstr ""
+
+#: code/shortcode-function.php:1063
+#: code/shortcode-function.php:1132
+#: code/shortcode-function.php:1133
+#: code/shortcode-function.php:1188
+#: code/shortcode-function.php:1189
+#@ _s
+msgid "Username"
+msgstr ""
+
+#: code/shortcode-function.php:1144
+#: code/shortcode-function.php:1206
+#@ _s
+msgid "Create Account"
+msgstr ""
+
+#: code/shortcode-function.php:1200
+#: code/shortcode-function.php:1201
+#@ _s
+msgid "Wedding Date"
+msgstr ""

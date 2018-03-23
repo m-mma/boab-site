@@ -1,0 +1,1124 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-02-14 21:43:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+#@ _s
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+#@ _s
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:33
+#@ _s
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:51
+#, php-format
+#@ _s
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+#@ _s
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+#: comments.php:61
+#@ _s
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+#: comments.php:64
+#@ _s
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44
+#: comments.php:65
+#@ _s
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+#@ _s
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+#@ _s
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:18
+#, php-format
+#@ _s
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:20
+#, php-format
+#@ _s
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:47
+#@ _s
+msgid "Primary"
+msgstr ""
+
+#: functions.php:102
+#@ _s
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:25
+#@ _s
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:45
+#@ _s
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+#@ _s
+msgctxt "post date"
+msgid "ON %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+#@ _s
+msgctxt "post author"
+msgid "BY %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50
+#: inc/template-tags.php:56
+#@ _s
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:41
+#, php-format
+#@ _s
+msgid "IN %1$s"
+msgstr ""
+
+#: inc/template-tags.php:70
+#, php-format
+#@ _s
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:76
+#@ _s
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:47
+#@ _s
+msgid "0 Comment"
+msgstr ""
+
+#: inc/template-tags.php:47
+#: inc/template-tags.php:76
+#@ _s
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:47
+#: inc/template-tags.php:76
+#@ _s
+msgid "% Comments"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71
+#: template-parts/content-page.php:33
+#, php-format
+#@ _s
+msgid "Edit %s"
+msgstr ""
+
+#: search.php:19
+#, php-format
+#@ _s
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+#@ _s
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+#@ _s
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+#@ _s
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+#@ _s
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22
+#: template-parts/content.php:38
+#@ _s
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. 
+#: template-parts/content.php:33
+#, php-format
+#@ _s
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#@ _s
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+#@ _s
+msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgstr ""
+
+#. Author of the plugin/theme
+#@ _s
+msgid "Automattic"
+msgstr ""
+
+#: page-templates/manage-listing:82
+#@ _s
+msgid "Sorry, no items found"
+msgstr ""
+
+
+#: page-templates/manage-listing:36
+#@ _s
+msgid "Image"
+msgstr ""
+
+#: page-templates/add-listing.php:155
+#: page-templates/manage-listing:37
+#@ _s
+msgid "Title"
+msgstr ""
+
+#: page-templates/add-listing.php:159
+#@ _s
+msgid "Content"
+msgstr ""
+
+#: page-templates/manage-listing:40
+#@ _s
+msgid "Action"
+msgstr ""
+
+#: page-templates/manage-listing:86
+#@ _s
+msgid "Sorry no item founds."
+msgstr ""
+
+#: page-templates/add-listing.php:165
+#: page-templates/manage-listing:39
+#@ _s
+msgid "Price"
+msgstr ""
+
+#: page-templates/add-listing.php:177
+#@ _s
+msgid "Capacity"
+msgstr ""
+
+#: page-templates/add-listing.php:190
+#: page-templates/user-profile:108
+#: page-templates/manage-listing:38
+#: page-templates/package.php:124
+#@ _s
+msgid "Address"
+msgstr ""
+
+#: page-templates/add-listing.php:194
+#@ _s
+msgid "Google Map Address for select marker place"
+msgstr ""
+
+#: page-templates/add-listing.php:202
+#@ _s
+msgid "Latitude (Google Map)"
+msgstr ""
+
+#: page-templates/add-listing.php:208
+#@ _s
+msgid "Longitude (Google Map)"
+msgstr ""
+
+#: page-templates/add-listing.php:214
+#@ _s
+msgid "Video URL(youtube,vimeo etc)"
+msgstr ""
+
+#: page-templates/add-listing.php:226
+#@ _s
+msgid "Select Media"
+msgstr ""
+
+#: page-templates/add-listing.php:231
+#@ _s
+msgid "* At least 1 image is required for a valid submission."
+msgstr ""
+
+#: page-templates/add-listing.php:232
+#@ _s
+msgid "**After uploading your image you must select a featured image by clicking on you preferred photo."
+msgstr ""
+
+#: page-templates/add-listing.php:239
+#: page-templates/page-slider.php:63
+#: page-templates/page-slider2.php:63
+#: inc/help-function.php:500
+#@ _s
+msgid "Select Category"
+msgstr ""
+
+#: page-templates/add-listing.php:264
+#: page-templates/page-slider.php:77
+#: page-templates/page-slider2.php:77
+#: inc/help-function.php:466
+#@ _s
+msgid "Select City"
+msgstr ""
+
+#: page-templates/page-slider.php:88
+#: page-templates/page-slider2.php:88
+#@ _s
+msgid "Find Vendors"
+msgstr ""
+
+#: page-templates/dashboard.php:187
+#@ _s
+msgid "Your Plan"
+msgstr ""
+
+#: page-templates/dashboard.php:195
+#@ _s
+msgid "Package Expiry Date"
+msgstr ""
+
+#: page-templates/couple-profile.php:62
+#@ _s
+msgid "Upload Profile Image"
+msgstr ""
+
+#: page-templates/couple-profile.php:68
+#@ _s
+msgid "*minimum 400px x 400px"
+msgstr ""
+
+#: page-templates/couple-profile.php:73
+#@ _s
+msgid "Couple Profile"
+msgstr ""
+
+
+#: page-templates/add-listing.php:288
+#@ _s
+msgid "Select Amenities"
+msgstr ""
+
+#: page-templates/add-listing.php:318
+#@ _s
+msgid "Save Listing"
+msgstr ""
+
+#: page-templates/add-listing.php:322
+#@ _s
+msgid "Add Listing"
+msgstr ""
+
+#: page-templates/add-listing.php:339
+#: page-templates/dashboard.php:246
+#@ _s
+msgid "Free Listing Over"
+msgstr ""
+
+#: page-templates/dashboard.php:247
+#@ _s
+msgid "Please select your required package plan"
+msgstr ""
+
+#: page-templates/dashboard.php:236
+#@ _s
+msgid "Total Listing you use"
+msgstr ""
+
+#: page-templates/dashboard.php:230
+#@ _s
+msgid "Remaining Listing"
+msgstr ""
+
+#: page-templates/dashboard.php:210
+#@ _s
+msgid "Total package Listing"
+msgstr ""
+
+#: page-templates/dashboard.php:202
+#@ _s
+msgid "FREE Plan Expired After 30 days"
+msgstr ""
+
+#: page-templates/dashboard.php:202
+#@ _s
+msgid "You are on a free plan"
+msgstr ""
+
+#: page-templates/dashboard.php:195
+#@ _s
+msgid "Life Time Free"
+msgstr ""
+
+
+#: page-templates/add-listing.php:343
+#@ _s
+msgid "Subscription Expired Or Item Listing Over"
+msgstr ""
+
+#: page-templates/add-listing.php:347
+#@ _s
+msgid "Your All Item Expired Or Item Listing Over"
+msgstr ""
+
+#: page-templates/add-listing.php:350
+#@ _s
+msgid "Please select your reqired package plan!"
+msgstr ""
+
+#: page-templates/couple-dashboard.php:42
+#: page-templates/dashboard.php:169
+#@ _s
+msgid "Welcome back to "
+msgstr ""
+
+#: template-parts/item/vendor-left.php:142
+#: template-parts/item/vendor-right.php:123
+#@ _s
+msgid "Facilities"
+msgstr ""
+
+#: framework/meta-box/meta-box.php:456
+#@ _s
+msgid "Year"
+msgstr ""
+
+#: template-parts/user/coupledashboard-menu.php:30
+#@ _s
+msgid "Welcome Back"
+msgstr ""
+
+#: page-templates/couple-dashboard.php:43
+#: page-templates/dashboard.php:170
+#@ _s
+msgid "We are happy to have you back."
+msgstr ""
+
+#: page-templates/couple-dashboard.php:47
+#@ _s
+msgid "Count Down Days"
+msgstr ""
+
+#: page-templates/couple-dashboard.php:47
+#@ _s
+msgid "Your Wishlist Items"
+msgstr ""
+
+#: page-templates/couple-profile.php:50
+#: page-templates/user-profile.php:50
+#: template-parts/item/vendor-tabbed.php:92
+#@ _s
+msgid "Upload Profile Photo"
+msgstr ""
+
+#: template-parts/item/vendor-tabbed.php:96
+#@ _s
+msgid "About"
+msgstr ""
+
+#: template-parts/item/vendor-tabbed.php:99
+#@ _s
+msgid "On map"
+msgstr ""
+
+#: template-parts/item/vendor-tabbed.php:100
+#@ _s
+msgid "Video"
+msgstr ""
+
+#: template-parts/item/vendor-tabbed.php:102
+#@ _s
+msgid "Reviews"
+msgstr ""
+
+#: template-parts/item/vendor-tabbed.php:101
+#@ _s
+msgid "Amenities"
+msgstr ""
+
+#: page-templates/couple-profile.php:69
+#: page-templates/user-profile.php:69
+#@ _s
+msgid "*minimum 400px x 400px"
+msgstr ""
+
+#: page-templates/couple-profile.php:74
+#@ _s
+msgid "Couple Profile"
+msgstr ""
+
+
+#: page-templates/user-profile.php:74
+#@ _s
+msgid "Vendor Profile"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:14
+#: template-parts/item/vendor-contact.php:16
+#: comments:124
+#@ _s
+msgid "Name"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:35
+#@ _s
+msgid "Date"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:37
+#@ _s
+msgid "Select Date"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:45
+#@ _s
+msgid "Number of Guests"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:59
+#@ _s
+msgid "Send me info via"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:62
+#@ _s
+msgid "Need Call back"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:70
+#: template-parts/item/vendor-left.php:97
+#: template-parts/item/vendor-right.php:96
+#@ _s
+msgid "Inquire now"
+msgstr ""
+
+#: template-parts/item/vendor-left.php:184
+#: template-parts/item/vendor-right.php:162
+#: template-parts/item/vendor-tabbed.php:82
+#@ _s
+msgid "Avg Price"
+msgstr ""
+
+#: template-parts/item/vendor-left.php:209
+#: template-parts/item/vendor-right.php:200
+#@ _s
+msgid "Recommend for"
+msgstr ""
+
+
+#: template-parts/item/vendor-contact.php:3
+#@ _s
+msgid "Send Enquiry to Vendor"
+msgstr ""
+
+#: template-parts/item/vendor-contact.php:4
+#@ _s
+msgid "Fill in your details and the vendor will get back to you shortly."
+msgstr ""
+
+#: page-templates/couple-profile.php:76
+#: page-templates/user-profile.php:76
+#@ _s
+msgid "First Name"
+msgstr ""
+
+#: page-templates/couple-profile.php:82
+#: page-templates/user-profile.php:82
+#@ _s
+msgid "Last Name"
+msgstr ""
+
+#: page-templates/user-profile.php:87
+#@ _s
+msgid "Vendor Website"
+msgstr ""
+
+#: page-templates/couple-profile.php:88
+#: page-templates/user-profile.php:94
+#: template-parts/item/vendor-contact.php:26
+#: template-parts/item/vendor-contact.php:28
+#: template-parts/item/vendor-contact.php:62
+#@ _s
+msgid "Email"
+msgstr ""
+
+#: page-templates/user-profile.php:101
+#: template-parts/item/vendor-contact.php:18
+#: template-parts/item/vendor-contact.php:20
+#@ _s
+msgid "Phone"
+msgstr ""
+
+#: page-templates/couple-profile.php:95
+#: page-templates/user-profile.php:115
+#@ _s
+msgid "Description"
+msgstr ""
+
+
+
+#: page-templates/couple-profile.php:105
+#@ _s
+msgid "Wedding Date"
+msgstr ""
+
+#: page-templates/couple-profile.php:109
+#@ _s
+msgid "Wedding City"
+msgstr ""
+
+#: page-templates/couple-profile.php:116
+#@ _s
+msgid "Wedding State"
+msgstr ""
+
+
+#: page-templates/couple-profile.php:122
+#: page-templates/user-profile.php:120
+#@ _s
+msgid "Social Media Profile"
+msgstr ""
+
+#: page-templates/couple-profile.php:124
+#: page-templates/user-profile.php:122
+#@ _s
+msgid "Facebook URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:130
+#: page-templates/user-profile.php:128
+#@ _s
+msgid "Twitter URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:136
+#: page-templates/user-profile.php:134
+#@ _s
+msgid "Google Plus URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:142
+#: page-templates/user-profile.php:140
+#@ _s
+msgid "Youtube URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:148
+#: page-templates/user-profile.php:146
+#@ _s
+msgid "Linkedin URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:154
+#: page-templates/user-profile.php:152
+#@ _s
+msgid "Pintrest URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:160
+#: page-templates/user-profile.php:158
+#@ _s
+msgid "Instagram URL"
+msgstr ""
+
+#: page-templates/couple-profile.php:169
+#: page-templates/user-profile.php:167
+#@ _s
+msgid "Update Profile"
+msgstr ""
+
+#: page-templates/couple-profile.php:179
+#: page-templates/user-profile.php:177
+#: page-templates/couple-profile.php:205
+#: page-templates/user-profile.php:203
+#@ _s
+msgid "Change Password"
+msgstr ""
+
+#: page-templates/couple-profile.php:183
+#: page-templates/user-profile.php:181
+#@ _s
+msgid "Old Password"
+msgstr ""
+
+#: page-templates/couple-profile.php:189
+#: page-templates/user-profile.php:187
+#@ _s
+msgid "New Password"
+msgstr ""
+
+#: page-templates/couple-profile.php:195
+#: page-templates/user-profile.php:193
+#@ _s
+msgid "Confirm Password"
+msgstr ""
+
+#: page-templates/couple-wishlist.php:32
+#@ _s
+msgid "Your selected vendor items"
+msgstr ""
+
+#: page-templates/listing-map.php:62
+#@ _s
+msgid "Filter"
+msgstr ""
+
+#: page-templates/listing-map.php:68
+#: page-templates/top-map.php:72
+#@ _s
+msgid "Refine Your Search"
+msgstr ""
+
+#: page-templates/listing-map.php:78
+#: page-templates/top-map.php:82
+#@ _s
+msgid "Category"
+msgstr ""
+
+#: page-templates/listing-map.php:82
+#: page-templates/top-map.php:86
+#: page-templates/package.php:130
+#@ _s
+msgid "City"
+msgstr ""
+
+#: page-templates/listing-map.php:86
+#: page-templates/top-map.php:90
+#: template-parts/item/vendor-left.php:176
+#: template-parts/item/vendor-right.php:157
+#: template-parts/item/vendor-tabbed.php:77
+#@ _s
+msgid "Capacity"
+msgstr ""
+
+#: page-templates/listing-map.php:91
+#: page-templates/top-map.php:94
+#@ _s
+msgid "Search"
+msgstr ""
+
+#: page-templates/listing-map.php:115
+#: page-templates/top-map.php:120
+#, php-format
+#@ _s
+msgid "Total %s items in your search"
+msgstr ""
+
+#: page-templates/package.php:38
+#@ _s
+msgid "Select Plan"
+msgstr ""
+
+#: page-templates/package.php:40
+#@ _s
+msgid "Listing"
+msgstr ""
+
+#: page-templates/package.php:55
+#@ _s
+msgid "OR"
+msgstr ""
+
+#: page-templates/package.php:68
+#@ _s
+msgid "Credit Card"
+msgstr ""
+
+#: page-templates/package.php:73
+#@ _s
+msgid "Credit Type"
+msgstr ""
+
+#: page-templates/package.php:86
+#@ _s
+msgid "Expiration Date"
+msgstr ""
+
+#: page-templates/package.php:114
+#@ _s
+msgid "CVV"
+msgstr ""
+
+#: page-templates/package.php:120
+#@ _s
+msgid "Full Name"
+msgstr ""
+
+#: page-templates/package.php:136
+#@ _s
+msgid "State"
+msgstr ""
+
+#: page-templates/package.php:144
+#@ _s
+msgid "Zip"
+msgstr ""
+
+#: page-templates/package.php:148
+#@ _s
+msgid "Pay"
+msgstr ""
+
+#: inc/general-function.php:68
+#@ _s
+msgid "Logout"
+msgstr ""
+
+#: inc/general-function.php:171
+#@ _s
+msgid "Related Post"
+msgstr ""
+
+#: inc/general-function.php:225
+#@ _s
+msgid "Previous"
+msgstr ""
+
+#: inc/general-function.php:229
+#@ _s
+msgid "Next"
+msgstr ""
+
+#: inc/general-function.php:362
+#@ _s
+msgid "Your new password for the account at:"
+msgstr ""
+
+#: inc/general-function.php:363
+#, php-format
+#@ _s
+msgid "Username: %s"
+msgstr ""
+
+#: inc/general-function.php:365
+#, php-format
+#@ _s
+msgid "Password: %s"
+msgstr ""
+
+#: inc/general-function.php:366
+#@ _s
+msgid "You can now login with your new password at:"
+msgstr ""
+
+#: inc/general-function.php:373
+#@ _s
+msgid "Email sending has failed for some unknown reason"
+msgstr ""
+
+#: inc/general-function.php:377
+#@ _s
+msgid "A new password was sent via email!"
+msgstr ""
+
+#: inc/general-function.php:390
+#@ _s
+msgid "Your Password Reseted"
+msgstr ""
+
+#: inc/general-function.php:393
+#@ _s
+msgid "We have just sent you a new password. Please check your email!"
+msgstr ""
+
+#: inc/general-function.php:584
+#@ _s
+msgid "Your Package is expired"
+msgstr ""
+
+#: inc/general-function.php:605
+#@ _s
+msgid "Your wedding items no longer display on our website"
+msgstr ""
+
+#: inc/general-function.php:603
+#, php-format
+#@ _s
+msgid "Please buy package to active your items %s:"
+msgstr ""
+
+#: comments.php:97
+#@ _s
+msgid "User Review"
+msgstr ""
+
+#: comments.php:98
+#, php-format
+#@ _s
+msgid "User Review Reply to %s"
+msgstr ""
+
+#: comments.php:112
+#@ _s
+msgid "Submit Review"
+msgstr ""
+
+#: comments.php:119
+#@ _s
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:135
+#@ _s
+msgid "Leave Comment"
+msgstr ""
+
+#: comments.php:141
+#@ _s
+msgid "Comment"
+msgstr ""
+
+#: inc/help-function.php:313
+#@ _s
+msgid "View Vendor Profile"
+msgstr ""
+
+#: template-parts/item/vendor-left.php:97
+#: template-parts/item/vendor-right.php:96
+#@ _s
+msgid "VIEW MAP"
+msgstr ""
+
+
+#: comments.php:120
+#, php-format
+#@ _s
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#@ _s
+msgid "Your item"
+msgstr ""
+
+#@ _s
+msgid "Thanks"
+msgstr ""
+
+#@ _s
+msgid "is expired"
+msgstr ""
+
+#@ _s
+msgid "My profile"
+msgstr ""
+
+#@ _s
+msgid "Manage listing"
+msgstr ""
+
+#@ _s
+msgid "Pricing plan"
+msgstr ""
+
+#: page-templates/couple-todolist.php:52
+#@ _s
+msgid "Add To Do"
+msgstr ""
+
+#: page-templates/couple-todolist.php:54
+#@ _s
+msgid "Add Task"
+msgstr ""
+
+#: page-templates/couple-todolist.php:46
+#@ _s
+msgid "Create your wedding to do and start planning."
+msgstr ""
+
+#: page-templates/couple-todolist.php:73
+#: page-templates/couple-todolist.php:105
+#@ _s
+msgid "Edit Task"
+msgstr ""
+
+#: page-templates/couple-todolist.php:83
+#@ _s
+msgid "Task Title"
+msgstr ""
+
+#: page-templates/couple-todolist.php:81
+#: page-templates/couple-todolist.php:83
+#: page-templates/couple-todolist.php:125
+#: page-templates/couple-todolist.php:127
+#@ _s
+msgid "Task Title"
+msgstr ""
+
+#: page-templates/couple-todolist.php:87
+#: page-templates/couple-todolist.php:89
+#: page-templates/couple-todolist.php:131
+#: page-templates/couple-todolist.php:133
+#@ _s
+msgid "Task Date"
+msgstr ""
+
+#: page-templates/couple-todolist.php:97
+#: page-templates/couple-todolist.php:141
+#@ _s
+msgid "Task Descriptions"
+msgstr ""
+
+#: page-templates/couple-todolist.php:148
+#@ _s
+msgid "Save Task"
+msgstr ""
+
+#: page-templates/couple-todolist.php:148
+#@ _s
+msgid "Save Task"
+msgstr ""
+
+#: page-templates/couple-todolist.php:236
+#@ _s
+msgid "Summary of To Dos"
+msgstr ""
+
+#: page-templates/couple-todolist.php:238
+#@ _s
+msgid "Done"
+msgstr ""
+
+#: page-templates/couple-todolist.php:238
+#@ _s
+msgid "To-Dos"
+msgstr ""
+
+#: page-templates/couple-budget.php:33
+#@ _s
+msgid "Create your wedding to do and start planning."
+msgstr ""
+
+#: page-templates/couple-budget.php:33
+#@ _s
+msgid "Create your wedding to do and start planning."
+msgstr ""
+
+#: page-templates/couple-budget.php:39
+#: page-templates/couple-budget.php:41
+#@ _s
+msgid "Add Category"
+msgstr ""
+
+#: page-templates/couple-budget.php:60
+#: page-templates/couple-budget.php:76
+#@ _s
+msgid "Edit Category"
+msgstr ""
+
+#: page-templates/couple-budget.php:87
+#@ _s
+msgid "Create New Category"
+msgstr ""
+
+#: page-templates/couple-budget.php:96
+#: page-templates/couple-budget.php:98
+#: page-templates/couple-budget.php:68
+#: page-templates/couple-budget.php:70
+#@ _s
+msgid "Category Name"
+msgstr ""
+
+#: page-templates/couple-budget.php:197
+#@ _s
+msgid "Add New"
+msgstr ""
+
+#: page-templates/couple-budget.php:118
+#@ _s
+msgid "Budget Category"
+msgstr ""
+
+#: page-templates/couple-budget.php:119
+#: page-templates/couple-budget.php:167
+#@ _s
+msgid "Estimated Cost"
+msgstr ""
+
+#: page-templates/couple-budget.php:120
+#: page-templates/couple-budget.php:168
+#@ _s
+msgid "Actual Cost"
+msgstr ""
+
+#: page-templates/couple-budget.php:121
+#: page-templates/couple-budget.php:169
+#@ _s
+msgid "Paid"
+msgstr ""
+
+#: page-templates/couple-budget.php:122
+#: page-templates/couple-budget.php:170
+#@ _s
+msgid "Due"
+msgstr ""
+
+#: page-templates/couple-budget.php:123
+#: page-templates/couple-budget.php:171
+#@ _s
+msgid "Edit / Delete"
+msgstr ""
